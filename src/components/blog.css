@@ -1,0 +1,112 @@
+
+.blog-card{
+    background-color: lightyellow;
+/*     display: flex; */
+    align-content: center;
+    float: left;
+    text-align: left;
+    padding: 5px;
+    /* margin: 10px; */
+    width: 100%;
+    padding: 23px 20px;
+	  background-color: #fff;
+	  border-top: 5px solid #eed709;
+	  border-left: 1px solid #e4e4e4;
+	  border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    margin-bottom: 20px;
+    min-width: 50%;
+}
+
+.topbar{
+  float: left;
+	width: 100%;
+	position: relative;
+  padding: 20px 20px 15px 20px;
+}
+
+/* link appearance need  to  check again */
+.user-name :link{
+  color:#000000;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 6px;
+  margin-top: 2px;
+}
+
+.user-name span{
+  color: #b2b2b2;
+  font-size: 14px;
+}
+
+.tag{
+    list-style: none;
+    background-color: rgb(179, 118, 6);
+    color: white;
+    text-align: center;
+    padding:1px;
+    margin: 1px;
+    border-radius: 5px;
+}
+
+.blog-content{
+  background-color: rgb(250, 236, 176) ;
+
+}
+.new-blog-component{
+    max-width: 65vw;
+    margin-bottom: 16px;
+  
+}
+
+.introduction{
+  text-shadow: 2px 1px;
+  color:#e4a620;
+  font-size:32px;
+}
+
+.comment-card{
+    background-color: lightyellow;
+    /* display: flex; */
+    align-content: center;
+    float: left;
+    text-align: left;
+/*     padding: px; */
+    /* margin: 10px; */
+    width: 100%;
+    padding: 23px 20px;
+	  background-color: #fff;
+	  border-top: 4px solid #eed709;
+	  border-left: 1px solid #e4e4e4;
+	  border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    margin-bottom: 20px;
+}
+/* .like-button{
+  position: absolute;
+  right: 0;
+} */
+
+textarea, input[type=text] {
+    box-sizing: border-box;
+    font: inherit;
+    padding: 0.75rem;
+    width: 100%;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  input[type=text] {
+    display: block;
+    line-height: 1.5rem;
+    margin: 0.25rem 0;
+  }
+  
+/*   input[type=submit] {
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+  } */

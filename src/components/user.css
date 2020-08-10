@@ -1,0 +1,17 @@
+.user-avatar{
+  width: 20%;
+  float:left;
+}
+
+.user-card{
+/*     max-width: 40%; */
+/*     min-width: 15%; */
+    border: black solid;
+    border-style: 2px;
+    border-radius: 2px;
+    background-color: lightyellow;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 1pc;
+}
+
